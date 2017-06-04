@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<manifest xmlns="http://schemas.microsoft.com/wlw/manifest/weblog">
+  <weblog>
+    <imageUrl>favicon.gif</imageUrl>
+    <homepageLinkText>View your weblog</homepageLinkText>
+    <adminLinkText>Edit your weblog</adminLinkText>
+    <adminUrl>http://www.stnc.de/admin/</adminUrl>
+    <postEditingUrl>http://www.stnc.de/admin/write/</postEditingUrl>
+  </weblog>
+  <options>
+    <clientType>Metaweblog</clientType>
+    <supportsPostAsDraft>Yes</supportsPostAsDraft>
+    <supportsFileUpload>Yes</supportsFileUpload>
+    <supportsCustomDate>Yes</supportsCustomDate>
+    <supportsCategories>Yes</supportsCategories>
+    <supportsCategoriesInline>Yes</supportsCategoriesInline>
+    <supportsKeywords>Yes</supportsKeywords>
+    <supportsMultipleCategories>Yes</supportsMultipleCategories>
+    <supportsNewCategories>Yes</supportsNewCategories>
+    <supportsNewCategoriesInline>Yes</supportsNewCategoriesInline>
+    <supportsEmbeds>Yes</supportsEmbeds>
+    <supportsAutoUpdate>Yes</supportsAutoUpdate>
+    <supportsSlug>No</supportsSlug>
+    <supportsExcerpt>Yes</supportsExcerpt>
+    <supportsExtendedEntries>No</supportsExtendedEntries>
+    <supportsEmptyTitles>No</supportsEmptyTitles>
+  </options>
+</manifest>

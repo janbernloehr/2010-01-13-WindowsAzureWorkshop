@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="AzureWorkshop" EntityNamespace="Entities" Class="BlogStorageDataContext" AccessModifier="Internal" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=87.106.214.158\S15312993,2702;Initial Catalog=AzureWorkshop;Persist Security Info=True;User ID=azureworkshop" SettingsObjectName="BlogEngine.Properties.Settings" SettingsPropertyName="AzureWorkshopConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.BlogPosts" Member="BlogPosts">
+    <Type Name="BlogPost">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Title" Type="System.String" DbType="NVarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="Text" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="Author" Type="System.String" DbType="NVarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="DateCreated" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Function Name="dbo.BlogPostsDelete" Method="BlogPostsDelete">
+    <Parameter Name="Id" Parameter="id" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.BlogPostsUpdate" Method="BlogPostsUpdate">
+    <Parameter Name="Id" Parameter="id" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Title" Parameter="title" Type="System.String" DbType="NVarChar(200)" />
+    <Parameter Name="Text" Parameter="text" Type="System.String" DbType="NVarChar(MAX)" />
+    <Parameter Name="Author" Parameter="author" Type="System.String" DbType="NVarChar(200)" />
+    <Parameter Name="DateCreated" Parameter="dateCreated" Type="System.DateTime" DbType="DateTime" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.BlogPostsInsert" Method="BlogPostsInsert">
+    <Parameter Name="Id" Parameter="id" Type="System.Int32" DbType="Int" Direction="InOut" />
+    <Parameter Name="Title" Parameter="title" Type="System.String" DbType="NVarChar(200)" />
+    <Parameter Name="Text" Parameter="text" Type="System.String" DbType="NVarChar(MAX)" />
+    <Parameter Name="Author" Parameter="author" Type="System.String" DbType="NVarChar(200)" />
+    <Parameter Name="DateCreated" Parameter="dateCreated" Type="System.DateTime" DbType="DateTime" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>

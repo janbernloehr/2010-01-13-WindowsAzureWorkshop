@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "CloudService2", "CloudService2\CloudService2.ccproj", "{AEDB3CE3-2213-44C7-9FD8-64AEFF6341F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebRole1", "WebRole1\WebRole1.csproj", "{7927FE3F-5894-49DD-A974-E3DDFC47DB23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEDB3CE3-2213-44C7-9FD8-64AEFF6341F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEDB3CE3-2213-44C7-9FD8-64AEFF6341F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEDB3CE3-2213-44C7-9FD8-64AEFF6341F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEDB3CE3-2213-44C7-9FD8-64AEFF6341F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7927FE3F-5894-49DD-A974-E3DDFC47DB23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7927FE3F-5894-49DD-A974-E3DDFC47DB23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7927FE3F-5894-49DD-A974-E3DDFC47DB23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7927FE3F-5894-49DD-A974-E3DDFC47DB23}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,10 @@
+﻿<rsd version="1.0">
+  <service>
+    <engineName>StudentsConnection Content Engine</engineName>
+    <engineLink>http://www.stnc.de</engineLink>
+    <homePageLink>http://www.stnc.de</homePageLink>
+    <apis>
+      <api name="MetaWeblog" blogID="" preferred="true" apiLink="http://www.stnc.de/api/metablog.ashx" />
+    </apis>
+  </service>
+</rsd>
